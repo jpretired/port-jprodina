@@ -1,0 +1,119 @@
+/*
+Theme Name: devdmbootstrap4-child
+Theme URI: https://devdmbootstrap.com
+Author: Danny Machal
+Author URI: http://devdm.com/
+Description: A devdmbootstrap4 child theme.
+Version: 1.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: devdmbootstrap4
+*/
+
+@media (min-width:576px){.container{max-width:92% !important}}
+@media (min-width:768px){.container{max-width:92% !important}}
+@media (min-width:1024px){.container{max-width:92% !important}}
+@media (min-width:1280px){.container{max-width:92% !important}}
+@media (min-width:1400px){.container{max-width:92% !important}}
+@media (min-width:1600px){.container{max-width:92% !important}}
+@media (min-width:1680px){.container{max-width:92% !important}}
+@media (min-width:1920px){.container{max-width:92% !important}}
+@media (min-width:2560px){.container{max-width:92% !important}}
+
+:root {
+    --hover-color: #ff0000;
+    }
+html {
+    font-size: 87.5%; /* odpovídá 14px */
+    }
+body {
+    font-family: Open Sans, sans-serif;
+    }
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    }
+h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    }
+h3.widgettitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ccccff;
+    }
+
+a {
+  color: #004a99;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+    }
+a:hover {
+    color: var( --hover-color);
+    text-decoration: underline;
+    }
+.menu-item a,
+.widget_meta a {
+    color: #660A00;
+    font-size: 0.95rem;
+    }
+.menu-item a:hover,
+.widget_meta a:hover {
+    color: var( --hover-color);
+    text-decoration: underline;
+    }
+  
+.widget_nav_menu {
+    background: #F7F7CD;  
+    }
+.widget_meta {
+    background: #E7E7E7;  
+    }
+li .menu-item,
+.widget_meta li {
+    margin-bottom: -2px;
+    }
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+    }
+.page {
+    background: content-box linear-gradient(#666666, #DDDDDD);
+    }
+.dmbs-content-wrapper {
+    border: 0.6rem solid #996600;
+    background: whitesmoke;
+    }
+.dmbs-content-wrapper {
+    padding: 16px;
+    }
+.dmbs-page {
+    background: whitesmoke;
+    }
+.dmbs-author-credits {
+    font-size: 0.8rem;
+    background: whitesmoke;
+    margin-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    }
+.dmbs-author-credits p {
+    text-align: inherit;
+    padding: 0.3rem;
+    }
+span.vlevo {
+    position: absolute;
+    left: 2rem;
+}
+span.stred {
+    position: absolute;
+    text-indent: 35vw; /* 35 % ze šířky okna */
+    }
+span.vpravo {
+    position: absolute;
+    right: 2rem;
+}
+
